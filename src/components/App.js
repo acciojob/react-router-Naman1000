@@ -1,9 +1,11 @@
 
 import React from "react";
 import './../styles/App.css';
-import Home from './Home.jsx'
-import About from "./About.jsx"
+import Home from './Home.jsx';
+import About from "./About.jsx";
 import Navigation from "./Navigation.jsx"
+
+import { Routes, Route } from "react-router-dom";
 
 
 const App = () => {
